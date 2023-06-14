@@ -49,8 +49,9 @@ export default class db_t {
     }
 
     sanitize (term) {
-        let sanitized = term .replaceAll (/(\+|-|\*)/g, '')
-        return sanitized
+        let replaced = term .replaceAll (/(\+|-|\*)/g, '')
+        let lowered = replaced .toLowerCase ()
+        return lowered
     }
 
     sort (fn) {
