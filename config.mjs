@@ -5,7 +5,7 @@ class config_t {
     token = "@G8kAmLkA]<#@7HkAmVk@m^&@j!:?EJ,@!`B)hWf6XI4DXFLBjGAkUT:`5VmJb%'F8]ihX5'"
     intents = 33281
     perms = 3072
-    invite = `https://discord.com/api/oauth2/authorize?client_id=${this.appid}&permissions=${this.perms}&scope=bot`
+    invite = `https://discord.com/api/oauth2/authorize?client_id=1117616240517713973&permissions=3072&scope=bot`
     db = './db.json'
 
     constructor () {

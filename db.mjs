@@ -103,7 +103,6 @@ export default class db_t {
     }
 }
 
-
 import test from './test.mjs'
 test (function () {
     let db = new db_t ()
